@@ -2,6 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-family: "Montserrat", sans-serif;
@@ -12,7 +19,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #112a46;
+  /* color: #112a46; */
+  color: #000;
   background-color: #fdfafb;
 
   font-synthesis: none;
@@ -23,11 +31,26 @@
 
 .bg-hero {
   /* background-image: url("./public/hero-2.png"); */
-  background-size: contain;
-  background-position: right;
-  background-attachment: fixed;
-  width: 100%;
+  /* background-size: contain; */
+  /* background-position: right; */
+  /* background-attachment: fixed; */
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* height: auto; */
+  max-width: 100%;
   height: 100vh;
+  object-fit: contain;
+}
+
+/* Styles for mobile view */
+@media (max-width: 768px) {
+  /* Adjust the breakpoint as needed */
+  .bg-hero {
+    object-position: -50% 0;
+    width: auto;
+    height: auto; /* Moves the image to the right, effectively cutting off the left side */
+  }
 }
 
 /* 
@@ -83,4 +106,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+.con {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* .sec {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
 } */
