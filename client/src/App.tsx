@@ -5,6 +5,9 @@ import Hero from "./components/Landing/Hero";
 import About from "./components/Landing/About";
 import Contact from "./components/Landing/Contact";
 import Testimonials from "./components/Landing/Testimonials";
+import Products from "./components/Landing/Products";
+import Mission from "./components/Landing/Mission";
+import Footer from "./components/Landing/Footer";
 
 function App() {
   return (
@@ -17,8 +20,11 @@ function App() {
               <NavBar />
               <Hero />
               <About />
+              <Products />
+              <Mission />
               <Testimonials />
               <Contact />
+              <Footer />
             </div>
           }
         />
