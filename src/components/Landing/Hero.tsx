@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="w-full h-screen  snap-start">
+    <section className="w-full h-screen  snap-start bg ">
       <div className="grid md:grid-flow-col lg:grid-flow-col sm:grid-flow-row md:grid-cols-2 lg:grid-cols-2 h-screen">
         <div className="h-full flex justify-end order-1 md:order-2">
           {/* <img className="h-screen " src="line.png" alt="line" /> */}

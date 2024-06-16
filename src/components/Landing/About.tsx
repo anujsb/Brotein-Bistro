@@ -43,7 +43,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="w-full h-screen snap-start py-16">
+    <section className="w-full h-screen snap-start py-16 bg-white">
       {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:p-20"> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:p-10">
         <div className="text-4xl md:text-6xl uppercase font-semibold leading-tight col-span-1 md:col-span-2">
@@ -51,8 +51,8 @@ const About = () => {
           <br /> fitness journey
         </div>
         {/* <div className="p-4 hidden md:block"> */}
-          <div className="p-4 ">
-          <img src="logo.png" alt="" /> 
+        <div className="p-4 ">
+          <img src="logo.png" alt="" />
         </div>
         <div className="p-4 text-base md:text-">
           <p className="m-2">
@@ -62,13 +62,13 @@ const About = () => {
             health-conscious, or simply love good food. Experience the perfect
             fusion of health and flavor at BROTEIN BISTRO!
           </p>
-          <Link
+          {/* <Link
             className="rounded-full font-semibold py-2 px-4 mr-5 border-black border shadow-md "
             role="button"
             to="/"
           >
             learn more
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

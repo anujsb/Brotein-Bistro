@@ -1,14 +1,22 @@
 const Contact = () => {
   return (
-    <section className="w-full h-screen snap-start pt-10">
+    <section className="w-full h-screen snap-start pt-10 bg-white">
       <div className="min-h-screen p-6 flex items-center justify-center">
         <div className="container max-w-screen-lg mx-auto">
           <div>
             <div className="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
               <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
-                <div className="text-gray-600">
-                  <p className="font-medium text-lg">Contact us</p>
+                <div className="">
+                  <p className="font-medium text-4xl">Contact us</p>
                   <p>Please fill out all the fields.</p>
+                  <iframe
+                  className="p-2"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14995.78872505124!2d73.7609585!3d20.0107314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb207349b67f%3A0x198e4953e544c7e2!2sBrotein%20Bistro%20(Best%20Healthy%20Food%20Restaurant%20In%20Nashik)!5e0!3m2!1sen!2sin!4v1718530815652!5m2!1sen!2sin"
+                    // style="border:0;"
+                    // allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
                 <div className="lg:col-span-2">
                   <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
@@ -18,8 +26,8 @@ const Contact = () => {
                         type="text"
                         name="full_name"
                         id="full_name"
-                        className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
-                        value=""
+                        className="h-10 border mt-1 rounded px-4 w-full bg-gray-50 text-black"
+                        // value=""
                       />
                     </div>
                     <div className="md:col-span-5">
@@ -29,7 +37,7 @@ const Contact = () => {
                         name="email"
                         id="email"
                         className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
-                        value=""
+                        // value=""
                         placeholder="email@domain.com"
                       />
                     </div>
@@ -40,7 +48,7 @@ const Contact = () => {
                         name="address"
                         id="address"
                         className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
-                        value=""
+                        // value=""
                         placeholder=""
                       />
                     </div>
@@ -51,7 +59,7 @@ const Contact = () => {
                         name="city"
                         id="city"
                         className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
-                        value=""
+                        // value=""
                         placeholder=""
                       />
                     </div>
@@ -63,10 +71,10 @@ const Contact = () => {
                           id="country"
                           placeholder="Country"
                           className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
-                          value=""
+                          // value=""
                         />
                         <button
-                          tabIndex="-1"
+                          // tabIndex="-1"
                           className="cursor-pointer outline-none focus:outline-none transition-all text-gray-300 hover:text-red-600"
                         >
                           <svg
@@ -83,8 +91,8 @@ const Contact = () => {
                           </svg>
                         </button>
                         <button
-                          tabIndex="-1"
-                          htmlFor="show_more"
+                          // tabIndex="-1"
+                          // htmlFor="show_more"
                           className="cursor-pointer outline-none focus:outline-none border-l border-gray-200 transition-all text-gray-300 hover:text-blue-600"
                         >
                           <svg
@@ -109,10 +117,10 @@ const Contact = () => {
                           id="state"
                           placeholder="State"
                           className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
-                          value=""
+                          // value=""
                         />
                         <button
-                          tabIndex="-1"
+                          // tabIndex="-1"
                           className="cursor-pointer outline-none focus:outline-none transition-all text-gray-300 hover:text-red-600"
                         >
                           <svg
@@ -129,8 +137,8 @@ const Contact = () => {
                           </svg>
                         </button>
                         <button
-                          tabIndex="-1"
-                          htmlFor="show_more"
+                          // tabIndex="-1"
+                          // htmlFor="show_more"
                           className="cursor-pointer outline-none focus:outline-none border-l border-gray-200 transition-all text-gray-300 hover:text-blue-600"
                         >
                           <svg
@@ -155,7 +163,7 @@ const Contact = () => {
                         id="zipcode"
                         className="transition-all flex items-center h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                         placeholder=""
-                        value=""
+                        // value=""
                       />
                     </div>
                     <div className="md:col-span-5">
@@ -171,7 +179,7 @@ const Contact = () => {
                         </label>
                       </div>
                     </div>
-                    <div className="md:col-span-2">
+                    {/* <div className="md:col-span-2">
                       <label htmlFor="soda">How many soda pops?</label>
                       <div className="h-10 w-28 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
                         <button
@@ -218,7 +226,7 @@ const Contact = () => {
                           </svg>
                         </button>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="md:col-span-3"></div>
                     <div className="md:col-span-5 text-right">
                       <div className="inline-flex items-end">

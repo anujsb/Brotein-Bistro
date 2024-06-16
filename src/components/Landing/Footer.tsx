@@ -133,13 +133,13 @@ const Footer = () => {
                   rel="noopener noreferrer"
                 >
                   {" "}
-                  Notus JS by
+                  brotein bistro by{" "}
                 </a>
                 <a
                   href="https://www.creative-tim.com?ref=njs-profile"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
-                  Creative Tim
+                  21bubbles
                 </a>
                 .
               </div>

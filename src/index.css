@@ -43,6 +43,12 @@
   object-fit: contain;
 }
 
+.bg {
+  background-image: url("./public/bg.png");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
 /* Styles for mobile view */
 @media (max-width: 768px) {
   /* Adjust the breakpoint as needed */
