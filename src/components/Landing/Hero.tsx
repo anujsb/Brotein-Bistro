@@ -10,7 +10,7 @@ const Hero = () => {
           <img className="bg-hero " src="hero6.png" alt="hero-image" />
         </div>
         <div className="flex flex-col justify-center items-center order-2 md:order-1">
-          <h1 className="text-7xl font-bold">
+          <h1 className="text-6xl font-bold">
             The <br /> Muscle <br /> Friendly <br /> Bistro
           </h1>
           {/* <p className=" ">
