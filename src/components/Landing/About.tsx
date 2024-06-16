@@ -51,8 +51,8 @@ const About = () => {
           <br /> fitness journey
         </div>
         {/* <div className="p-4 hidden md:block"> */}
-        <div className="p-4 ">
-          <img src="logo.png" alt="" />
+        <div className="p-4">
+          <img src="mission_img.png" alt="" />
         </div>
         <div className="p-4 text-base md:text-">
           <p className="m-2">
