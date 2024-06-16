@@ -114,10 +114,18 @@ button:focus-visible {
   }
 } */
 
+/* Default styles */
 .con {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  .con {
+    scroll-snap-type: none;
+  }
 }
 
 /* .sec {
