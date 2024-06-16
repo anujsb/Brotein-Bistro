@@ -12,7 +12,7 @@ const Hero = () => {
         <div className=" order-2 md:order-1 flex flex-col justify-center items-center">
           {/* <div className="lg:mt-20 md:mt-20 sm:mt-0 flex flex-col items-center"> */}
           {/* <div className=" "> */}
-            <h1 className="text-4xl font-bold ">
+            <h1 className="text-5xl font-bold ">
               The Muscle <br /> Friendly Bistro
             </h1>
 
