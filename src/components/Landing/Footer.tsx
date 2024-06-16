@@ -1,37 +1,37 @@
 const Footer = () => {
   return (
-    <div className=" snap-start">
+    <div className="snap-end">
       <div className="relative bg-blueGray-200 pt-8 pb-6">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-left lg:text-left">
-            <div className="w-full lg:w-6/12 px-4">
+            <div className="w-full lg:w-6/12 px-4 mb-6 lg:mb-0">
               <h4 className="text-3xl font-semibold text-blueGray-700">
-                Let's keep in touch!
+                Brotein Bistro
               </h4>
               <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-                Find us on any of these platforms, we respond 1-2 business days.
+                The Muscle Friendly Bistro
               </h5>
-              <div className="mt-6 lg:mb-0 mb-6">
+              <div className="mt-6 flex flex-wrap lg:mb-0 mb-6">
                 <button
-                  className=" text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
                   type="button"
                 >
                   <i className="fab fa-twitter"></i>
                 </button>
                 <button
-                  className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
                   type="button"
                 >
                   <i className="fab fa-facebook-square"></i>
                 </button>
                 <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
                   type="button"
                 >
                   <i className="fab fa-dribbble"></i>
                 </button>
                 <button
-                  className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
                   type="button"
                 >
                   <i className="fab fa-github"></i>
@@ -39,8 +39,8 @@ const Footer = () => {
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
-              <div className="flex flex-wrap items-top mb-6">
-                <div className="w-full lg:w-4/12 px-4 ml-auto">
+              <div className="flex flex-wrap items-top md:mb-6 lg:mb-6 sm:mb-2">
+                <div className="w-full sm:w-6/12 lg:w-4/12 px-4 ml-auto mb-6 sm:mb-0">
                   <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
                     Useful Links
                   </span>
@@ -79,7 +79,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="w-full lg:w-4/12 px-4">
+                <div className="w-full sm:w-6/12 lg:w-4/12 px-4">
                   <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
                     Other Resources
                   </span>

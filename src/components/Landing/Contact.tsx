@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <section className="w-full h-screen snap-start pt-10 bg-white">
-      <div className="min-h-screen p-6 flex items-center justify-center">
+    <section className="w-full h-screen snap-start bg-white">
+      <div className="max-h-screen md:pt-20 lg:pt-20 sm:pt-10 flex items-center justify-center">
         <div className="container max-w-screen-lg mx-auto">
           <div>
             <div className="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
