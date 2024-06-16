@@ -15,7 +15,7 @@ const Contact = () => {
                     // style="border:0;"
                     // allowfullscreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
+                    // referrerpolicy="no-referrer-when-downgrade"
                   ></iframe>
                 </div>
                 <div className="lg:col-span-2">

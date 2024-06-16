@@ -5,7 +5,7 @@ const NavBar = () => {
     <nav className="w-screen max-h-20 backdrop-blur-sm shadow-md fixed grid grid-flow-col">
       {/* <div className="flex flex-row w-full"> */}
       <div className="flex justify-start items-center">
-        <img src="public/logo.png" alt="logo" className="h-14 max-h-16 m-1" />
+        <img src="logo.png" alt="logo" className="h-14 max-h-16 m-1" />
       </div>
       <div className="flex justify-end items-center mx-5 ">
         <Link
