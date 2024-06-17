@@ -43,9 +43,9 @@
 
 const Mission = () => {
   return (
-    <section className="w-full h-screen snap-start py-16 bg-white">
+    <section className="w-full h-screen snap-start px-10 py-20 bg-white">
       {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:p-20"> */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-1 p-4 md:p-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-1  md:p-10 lg:p-10">
         <div className="text-4xl md:text-6xl uppercase font-semibold leading-tight col-span-1 md:col-span-2">
           OUr mission
         </div>
@@ -53,8 +53,8 @@ const Mission = () => {
         <div className=" ">
           <img src="mission_img.png" alt="" />
         </div>
-        <div className="p-4 text-base md:text-">
-          <p className="m-2">
+        <div className="md:p-4 lg:p-4 text-base ">
+          <p className="md:m-2 lg:m-2">
             At BROTEIN BISTRO, our mission is to revolutionize the way people
             approach health and fitness. We believe that everyone deserves
             access to nutritious, delicious food that supports their wellness

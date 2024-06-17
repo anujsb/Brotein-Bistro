@@ -2,15 +2,15 @@ const Contact = () => {
   return (
     // <section className=" ">
       <div className="w-full h-screen px-10 py-20 flex items-center justify-center snap-start bg-white">
-        <div className="container max-w-screen-lg mx-auto">
+        <div className="">
           <div>
-            <div className="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
+            <div className="bg-white rounded shadow-lg p-4 px-4 md:p-8 ">
               <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
                 <div className="">
                   <p className="font-medium text-4xl">Contact us</p>
                   <p>Please fill out all the fields.</p>
                   <iframe
-                  className="p-2"
+                  className="p-2 container"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14995.78872505124!2d73.7609585!3d20.0107314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb207349b67f%3A0x198e4953e544c7e2!2sBrotein%20Bistro%20(Best%20Healthy%20Food%20Restaurant%20In%20Nashik)!5e0!3m2!1sen!2sin!4v1718530815652!5m2!1sen!2sin"
                     // style="border:0;"
                     // allowfullscreen=""

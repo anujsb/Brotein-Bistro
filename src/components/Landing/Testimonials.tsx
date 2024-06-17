@@ -49,7 +49,7 @@ const Testimonials = () => {
 
   return (
     <section className="w-full h-screen snap-start px-10 py-20">
-      <div className="mx-auto max-w-[1340px] sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
+      <div className="mx-auto max-w-[1340px]  lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
           <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
