@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Products = () => {
   return (
-    <div className="w-full  snap-start min-h-screen p-20 flex flex-col justify-center items-center ">
+    <div className="w-full  snap-start min-h-screen px-10 py-20  flex flex-col justify-center items-center ">
       <div className="mb-10">
         <h1 className="text-5xl font-bold text-gray-800">Our Services</h1>
       </div>
@@ -33,10 +33,7 @@ const Products = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio.
           </p>
-          <Link
-            to="/"
-            className="text-blue-500 hover:text-blue-700 mt-4 inline-block"
-          >
+          <Link to="/" className="text-black mt-4 inline-block">
             Learn More
           </Link>
         </div>
@@ -53,10 +50,7 @@ const Products = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio.
           </p>
-          <Link
-            to="/"
-            className="text-blue-500 hover:text-blue-700 mt-4 inline-block"
-          >
+          <Link to="/" className="text-black mt-4 inline-block">
             Order Online
           </Link>
         </div>
