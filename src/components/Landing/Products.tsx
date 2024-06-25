@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Products = () => {
-  const [selectedId, setSelectedId] = useState(null);
+  const [selectedId, setSelectedId] = useState<number | null>(null);
 
   const items = [
     {
@@ -43,7 +43,7 @@ const Products = () => {
       <div className="grid grid-rows-4 md:grid-rows-2 gap-6 w-full max-w-7xl px-20">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 w-full">
           <motion.div
-            layoutId={1}
+            layoutId="1"
             className="col-span-1 md:col-span-3 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-60 cursor-pointer"
             onClick={() => setSelectedId(1)}
           >
@@ -60,7 +60,7 @@ const Products = () => {
             </div>
           </motion.div>
           <motion.div
-            layoutId={2}
+            layoutId="2"
             className="col-span-1 md:col-span-2 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-60 cursor-pointer"
             onClick={() => setSelectedId(2)}
           >
@@ -81,7 +81,7 @@ const Products = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 w-full">
           <motion.div
-            layoutId={3}
+            layoutId="3"
             className="col-span-1 md:col-span-2 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-60 cursor-pointer"
             onClick={() => setSelectedId(3)}
           >
@@ -100,7 +100,7 @@ const Products = () => {
             </div>
           </motion.div>
           <motion.div
-            layoutId={4}
+            layoutId="4"
             className="col-span-1 md:col-span-3 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-60 cursor-pointer"
             onClick={() => setSelectedId(4)}
           >
@@ -124,20 +124,20 @@ const Products = () => {
       <AnimatePresence>
         {selectedId && (
           <motion.div
-            layoutId={selectedId}
+            layoutId={selectedId.toString()}
             className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50"
           >
-            <div className="bg-white rounded-xl shadow-lg  max-w-lg mx-auto">
+            <div className="bg-white rounded-xl shadow-lg max-w-lg mx-auto">
               <motion.img
-                src={items.find((item) => item.id === selectedId).imgSrc}
+                src={items.find((item) => item.id === selectedId)?.imgSrc}
                 alt="card-image"
                 className="rounded-t-xl w-full h-36 object-cover"
               />
               <motion.h2 className="text-3xl font-bold mt-4 px-3 mb-2">
-                {items.find((item) => item.id === selectedId).title}
+                {items.find((item) => item.id === selectedId)?.title}
               </motion.h2>
               <motion.p className="text-gray-600 mb-4 px-3">
-                {items.find((item) => item.id === selectedId).description}
+                {items.find((item) => item.id === selectedId)?.description}
               </motion.p>
               <motion.button
                 className="text-black mb-4 inline-block px-3"
