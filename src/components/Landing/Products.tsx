@@ -34,13 +34,13 @@ const Products = () => {
   ];
 
   return (
-    <div className="w-full snap-start min-h-screen px-4 md:px-10 py-10 md:py-20 flex flex-col justify-center items-center">
+    <div className="w-full snap-start h-min px-4 md:px-10 py-10 md:py-20 flex flex-col justify-center items-center">
       <div className="mb-10">
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
           Our Services
         </h1>
       </div>
-      <div className="grid grid-rows-4 md:grid-rows-2 gap-6 w-full max-w-7xl md:px-16 lg:px-16">
+      <div className="grid grid-rows-2 md:grid-rows-2 gap-6 w-full max-w-7xl md:px-16 lg:px-16">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 w-full">
           <motion.div
             layoutId="1"
@@ -56,7 +56,10 @@ const Products = () => {
               <h2 className="text-xl md:text-2xl font-semibold mt-4">
                 Healthy Cafe
               </h2>
-              <Link to="/" className="text-black mt-2 inline-block border p-1 rounded-lg">
+              <Link
+                to="/"
+                className="text-black mt-2 inline-block border p-1 rounded-lg"
+              >
                 Learn More
               </Link>
             </div>
@@ -75,7 +78,10 @@ const Products = () => {
               <h2 className="text-xl md:text-2xl font-semibold mt-4">
                 Monthly Subscriptions
               </h2>
-              <Link to="/" className="text-black mt-2 inline-block border p-1 rounded-lg">
+              <Link
+                to="/"
+                className="text-black mt-2 inline-block border p-1 rounded-lg"
+              >
                 Learn More
               </Link>
             </div>
@@ -96,7 +102,10 @@ const Products = () => {
               <h2 className="text-xl md:text-2xl font-semibold mt-4 capitalize">
                 Supplements From
               </h2>
-              <Link to="/" className="text-black mt-2 inline-block border p-1 rounded-lg">
+              <Link
+                to="/"
+                className="text-black mt-2 inline-block border p-1 rounded-lg"
+              >
                 Learn More
               </Link>
             </div>
@@ -115,7 +124,10 @@ const Products = () => {
               <h2 className="text-xl md:text-2xl font-semibold mt-4 capitalize">
                 Online Delivery
               </h2>
-              <Link to="/" className="text-black mt-2 inline-block border p-1 rounded-lg">
+              <Link
+                to="/"
+                className="text-black mt-2 inline-block border p-1 rounded-lg"
+              >
                 Learn More
               </Link>
             </div>
