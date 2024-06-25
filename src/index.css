@@ -121,7 +121,6 @@ button:focus-visible {
   height: 100vh;
 }
 
-/* Styles for mobile devices */
 @media (max-width: 767px) {
   .con {
     scroll-snap-type: none;
