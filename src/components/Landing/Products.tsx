@@ -53,10 +53,12 @@ const Products = () => {
               className="rounded-t-xl w-full h-36 object-cover"
             />
             <div className="px-3">
-              <h2 className="text-2xl font-semibold mt-4">Healthy Cafe</h2>
-              <button className="text-black mt-4 inline-block">
+              <h2 className="text-xl md:text-2xl font-semibold mt-4">
+                Healthy Cafe
+              </h2>
+              <Link to="/" className="text-black mt-2 inline-block border p-1 rounded-lg">
                 Learn More
-              </button>
+              </Link>
             </div>
           </motion.div>
           <motion.div
@@ -70,10 +72,10 @@ const Products = () => {
               className="rounded-t-xl w-full h-36 object-cover"
             />
             <div className="px-3">
-              <h2 className="text-2xl font-semibold mt-4">
+              <h2 className="text-xl md:text-2xl font-semibold mt-4">
                 Monthly Subscriptions
               </h2>
-              <Link to="/" className="text-black mt-4 inline-block">
+              <Link to="/" className="text-black mt-2 inline-block border p-1 rounded-lg">
                 Learn More
               </Link>
             </div>
@@ -91,10 +93,10 @@ const Products = () => {
               className="rounded-t-xl w-full h-36 object-cover"
             />
             <div className="px-3">
-              <h2 className="text-2xl font-semibold mt-4 capitalize">
-                Supplements From Leading Brand
+              <h2 className="text-xl md:text-2xl font-semibold mt-4 capitalize">
+                Supplements From
               </h2>
-              <Link to="/" className="text-black mt-4 inline-block">
+              <Link to="/" className="text-black mt-2 inline-block border p-1 rounded-lg">
                 Learn More
               </Link>
             </div>
@@ -110,10 +112,10 @@ const Products = () => {
               className="rounded-t-xl w-full h-36 object-cover"
             />
             <div className="px-3">
-              <h2 className="text-2xl font-semibold mt-4 capitalize">
+              <h2 className="text-xl md:text-2xl font-semibold mt-4 capitalize">
                 Online Delivery
               </h2>
-              <Link to="/" className="text-black mt-4 inline-block">
+              <Link to="/" className="text-black mt-2 inline-block border p-1 rounded-lg">
                 Learn More
               </Link>
             </div>
@@ -140,7 +142,7 @@ const Products = () => {
                 {items.find((item) => item.id === selectedId)?.description}
               </motion.p>
               <motion.button
-                className="text-black mb-4 inline-block px-3"
+                className="text-black mb-4 inline-block px-3 mt-2  border p-1 rounded-lg"
                 onClick={() => setSelectedId(null)}
               >
                 Close
