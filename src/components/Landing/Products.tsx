@@ -40,7 +40,7 @@ const Products = () => {
           Our Services
         </h1>
       </div>
-      <div className="grid grid-rows-4 md:grid-rows-2 gap-6 w-full max-w-7xl px-20">
+      <div className="grid grid-rows-4 md:grid-rows-2 gap-6 w-full max-w-7xl md:px-16 lg:px-16">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 w-full">
           <motion.div
             layoutId="1"
