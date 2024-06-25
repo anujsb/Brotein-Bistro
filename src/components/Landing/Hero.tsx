@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="grid sm:grid-flow-row md:grid-flow-col lg:grid-flow-col sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
         {/* Conditional rendering for the image div based on screen size */}
         <div className="hidden md:flex justify-end order-1 md:order-2">
-          <img className="bg-hero" src="hero6.png" alt="hero-image" />
+          <img className="bg-hero " src="hero6.png" alt="hero-image" />
         </div>
         <div className="order-2 md:order-1 flex flex-col justify-center items-center h-screen">
           <h1 className="text-5xl font-bold">

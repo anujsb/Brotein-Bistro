@@ -37,7 +37,7 @@ const Products = () => {
     <div className="w-full snap-start h-min px-4 md:px-10 py-10 md:py-20 flex flex-col justify-center items-center">
       <div className="mb-10">
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
-          Our Services
+          What We Provide
         </h1>
       </div>
       <div className="grid grid-rows-2 md:grid-rows-2 gap-6 w-full max-w-7xl md:px-16 lg:px-16">

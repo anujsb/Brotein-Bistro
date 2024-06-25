@@ -41,42 +41,42 @@ const Footer = () => {
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top md:mb-6 lg:mb-6 sm:mb-2">
                 <div className="w-full sm:w-6/12 lg:w-4/12 px-4 ml-auto mb-6 sm:mb-0">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                  {/* <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
                     Useful Links
-                  </span>
+                  </span> */}
                   <ul className="list-unstyled">
                     <li>
-                      <a
+                      {/* <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation?ref=njs-profile"
+                        href="/"
                       >
                         About Us
-                      </a>
+                      </a> */}
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com?ref=njs-profile"
+                        href="/"
                       >
                         Blog
                       </a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.github.com/creativetimofficial?ref=njs-profile"
                       >
                         Github
                       </a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
                       >
                         Free Products
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div className="w-full sm:w-6/12 lg:w-4/12 px-4">
@@ -85,17 +85,17 @@ const Footer = () => {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
+                      {/* <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile"
                       >
                         MIT License
-                      </a>
+                      </a> */}
                     </li>
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms?ref=njs-profile"
+                        href="/"
                       >
                         Terms & Conditions
                       </a>
@@ -103,7 +103,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy?ref=njs-profile"
+                        href="/"
                       >
                         Privacy Policy
                       </a>
@@ -111,7 +111,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=njs-profile"
+                        href="/"
                       >
                         Contact Us
                       </a>

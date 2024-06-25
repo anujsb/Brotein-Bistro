@@ -56,10 +56,10 @@ const Testimonials = () => {
               Don't just take our word for it...
             </h2>
 
-            <p className="mt-4 text-gray-700">
+            {/* <p className="mt-4 text-gray-700">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
               veritatis illo placeat harum porro optio fugit a culpa sunt id!
-            </p>
+            </p> */}
 
             <div className="hidden lg:mt-8 lg:flex lg:gap-4">
               <button
@@ -160,15 +160,18 @@ const Testimonials = () => {
 
                     <div className="mt-4">
                       <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
-                        Stayin' Alive
+                        Wellness Journey
                       </p>
 
                       <p className="mt-4 leading-relaxed text-gray-700">
-                        No, Rose, they are not breathing. And they have no arms
-                        or legs … Where are they? You know what? If we come
-                        across somebody with no arms or legs, do we bother
-                        resuscitating them? I mean, what quality of life do we
-                        have there?
+                        "My journey towards wellness started with a decision to
+                        eat better, and BROTEIN BISTRO has been my go-to place
+                        since day one. Their commitment to providing healthy,
+                        flavorful options is truly commendable. From the fresh
+                        ingredients to the creative recipes, every meal feels
+                        like a treat to my body and soul. It's not just about
+                        being fit; it's about feeling great, and BROTEIN BISTRO
+                        helps me do exactly that."
                       </p>
                     </div>
                   </div>
@@ -231,15 +234,19 @@ const Testimonials = () => {
 
                     <div className="mt-4">
                       <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
-                        Stayin' Alive
+                        Health-Conscious Foodie
                       </p>
 
                       <p className="mt-4 leading-relaxed text-gray-700">
-                        No, Rose, they are not breathing. And they have no arms
-                        or legs … Where are they? You know what? If we come
-                        across somebody with no arms or legs, do we bother
-                        resuscitating them? I mean, what quality of life do we
-                        have there?
+                        "As a health-conscious individual, finding places that
+                        cater to my dietary needs without compromising on taste
+                        has been challenging. BROTEIN BISTRO changed that for
+                        me. Every visit, I'm impressed by how they manage to
+                        blend nutrition with such delectable flavors. Whether
+                        it's their protein-packed smoothies or their
+                        nutrient-rich meals, everything is top-notch. It's like
+                        getting the best of both worlds - health benefits and
+                        culinary delight."
                       </p>
                     </div>
                   </div>
@@ -302,15 +309,18 @@ const Testimonials = () => {
 
                     <div className="mt-4">
                       <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
-                        Stayin' Alive
+                        The Fitness Enthusiast
                       </p>
 
                       <p className="mt-4 leading-relaxed text-gray-700">
-                        No, Rose, they are not breathing. And they have no arms
-                        or legs … Where are they? You know what? If we come
-                        across somebody with no arms or legs, do we bother
-                        resuscitating them? I mean, what quality of life do we
-                        have there?
+                        "I've been trying to get healthier and fitter for years,
+                        but it was hard until I discovered BROTEIN BISTRO. Their
+                        meals are not just delicious; they're packed with
+                        nutrients that fuel my workouts and recovery. As someone
+                        who spends hours at the gym, knowing that every bite is
+                        contributing to my health goals makes me feel amazing.
+                        Plus, the variety in their menu keeps things
+                        interesting. Highly recommend!"
                       </p>
                     </div>
                   </div>
