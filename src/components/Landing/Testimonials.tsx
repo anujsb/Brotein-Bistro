@@ -176,9 +176,9 @@ const Testimonials = () => {
                     </div>
                   </div>
 
-                  <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
+                  {/* <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
                     &mdash; Michael Scott
-                  </footer>
+                  </footer> */}
                 </blockquote>
               </div>
 
@@ -251,9 +251,9 @@ const Testimonials = () => {
                     </div>
                   </div>
 
-                  <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
+                  {/* <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
                     &mdash; Michael Scott
-                  </footer>
+                  </footer> */}
                 </blockquote>
               </div>
 
@@ -325,9 +325,9 @@ const Testimonials = () => {
                     </div>
                   </div>
 
-                  <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
+                  {/* <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
                     &mdash; Michael Scott
-                  </footer>
+                  </footer> */}
                 </blockquote>
               </div>
             </div>

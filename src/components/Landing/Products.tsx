@@ -34,7 +34,7 @@ const Products = () => {
   ];
 
   return (
-    <div className="w-full snap-start h-min px-4 md:px-10 py-10 md:py-20 flex flex-col justify-center items-center">
+    <div className="w-full snap-start h-min px-4 md:px-10 py-10 md:py-20 flex flex-col justify-center items-center bg-white">
       <div className="mb-10">
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
           What We Provide
