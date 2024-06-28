@@ -19,8 +19,8 @@ function App() {
             <div className="con">
               <NavBar />
               <Hero />
-              <About />
               <Products />
+              <About />
               <Mission />
               <Testimonials />
               <Contact />
