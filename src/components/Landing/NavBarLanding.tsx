@@ -15,16 +15,17 @@ const NavBar = () => {
         >
           Order Now
         </Link>
-        <Link
+        <a
+          href="https://app.broteinbistro.com/plansdetails"
           className="rounded-full font-semibold  py-2 px-4 md:mr-5 lg:mr-5 sm:mr-1 border-black border shadow-md"
           role="button"
-          to="/"
         >
           See Plans
-        </Link>
-        <div>
+        </a>
+
+        {/* <div>
           <img className="w-10 h-10" src="ham.svg" alt="ham" role="button" />
-        </div>
+        </div> */}
       </div>
       {/* </div> */}
     </nav>

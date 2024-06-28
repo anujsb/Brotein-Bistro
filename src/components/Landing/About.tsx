@@ -12,7 +12,7 @@ const About = () => {
         </div>
 
         <div className="p-4 flex justify-center ">
-          <img className="h-72" src="about2.jpg" alt="" />
+          <img className="h-72" src="about3.jpg" alt="" />
         </div>
         <div className="p-4 text-base md:text-">
           <p className="m-2">

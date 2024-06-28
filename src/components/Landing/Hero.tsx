@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
+
 
 const Hero = () => {
   return (
@@ -8,7 +10,11 @@ const Hero = () => {
         <div className="hidden md:flex justify-end order-1 md:order-2">
           <img className="bg-hero " src="hero6.png" alt="hero-image" />
         </div>
-        <div className="order-2 md:order-1 flex flex-col justify-center items-center h-screen">
+        <motion.div className="order-2 md:order-1 flex flex-col justify-center items-center h-screen"
+          initial={{ x: '-200vw' }} // start off-screen to the left
+          animate={{ x: 0 }}        // animate to its original position
+          transition={{ type: 'spring', stiffness: 50 }} // adjust the animation timing and behavior
+        >
           <h1 className="text-5xl font-bold">
             The
             <br /> Muscle <br /> Friendly
@@ -23,15 +29,15 @@ const Hero = () => {
             >
               Order Now
             </Link>
-            <Link
+            <a
+              href="https://app.broteinbistro.com/plansdetails"
               className="rounded-full font-semibold py-2 px-4 mr-5 border-black border shadow-md"
               role="button"
-              to="/"
             >
               See Plans
-            </Link>
+            </a>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
