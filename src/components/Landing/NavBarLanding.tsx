@@ -9,7 +9,7 @@ const NavBar = () => {
       </div>
       <div className="flex justify-end items-center lg:mx-5 md:mx-5 sm:mx-3">
         <Link
-          className="bg-[#FBE7CB] rounded-full font-semibold py-2 px-4 md:mr-5 lg:mr-5 sm:mr-1 shadow-md"
+          className="bg-[#FBE7CB] rounded-full font-semibold py-2 px-4 m-2 shadow-md"
           role="button"
           to="/"
         >
@@ -17,7 +17,7 @@ const NavBar = () => {
         </Link>
         <a
           href="https://app.broteinbistro.com/plansdetails"
-          className="rounded-full font-semibold  py-2 px-4 md:mr-5 lg:mr-5 sm:mr-1 border-black border shadow-md"
+          className="rounded-full font-semibold  py-2 px-4 m-2 border-black border shadow-md"
           role="button"
         >
           See Plans

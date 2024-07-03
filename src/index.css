@@ -47,17 +47,16 @@
   background-image: url("bg.png");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 /* Styles for mobile view */
-@media (max-width: 768px) {
-  /* Adjust the breakpoint as needed */
+/* @media (max-width: 768px) {
   .bg-hero {
     object-position: -50% 0;
     width: auto;
-    height: auto; /* Moves the image to the right, effectively cutting off the left side */
+    height: auto;
   }
-}
+} */
 
 /* Default styles */
 .con {
