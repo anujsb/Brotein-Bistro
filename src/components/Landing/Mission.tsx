@@ -83,7 +83,7 @@
 
 const Mission = () => {
   return (
-    <section className="w-full snap-start">
+    <section className="w-full snap-start bg-white">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
 

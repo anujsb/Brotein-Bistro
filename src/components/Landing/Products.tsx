@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Products = () => {
   const [selectedId, setSelectedId] = useState<number | null>(null);
+  const popupRef = useRef<HTMLDivElement | null>(null);
 
   const items = [
     {
@@ -33,11 +34,29 @@ const Products = () => {
     },
   ];
 
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (popupRef.current && !popupRef.current.contains(event.target as Node)) {
+        setSelectedId(null);
+      }
+    };
+
+    if (selectedId) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [selectedId]);
+
   return (
-    <div className="w-full snap-start h-min px-4 md:px-10 py-10 md:py-20 flex flex-col justify-center items-center bg-white">
+    <div className="w-full snap-start h-min px-4 md:px-10 py-10 md:py-20 flex flex-col justify-center items-center">
       <div className="mb-10">
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
-          What We Provide
+          What We Bring to You
         </h1>
       </div>
       <div className="grid grid-rows-2 md:grid-rows-2 gap-6 w-full max-w-7xl md:px-16 lg:px-16">
@@ -100,7 +119,7 @@ const Products = () => {
             />
             <div className="px-3">
               <h2 className="text-xl md:text-2xl font-semibold mt-4 capitalize">
-                Supplements From
+                Supplements
               </h2>
               <Link
                 to="/"
@@ -141,7 +160,7 @@ const Products = () => {
             layoutId={selectedId.toString()}
             className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50"
           >
-            <div className="bg-white rounded-xl shadow-lg max-w-lg mx-auto">
+            <div ref={popupRef} className="bg-white rounded-xl shadow-lg max-w-lg mx-auto">
               <motion.img
                 src={items.find((item) => item.id === selectedId)?.imgSrc}
                 alt="card-image"
