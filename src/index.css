@@ -44,7 +44,7 @@
 }
 
 .bg {
-  background-image: url("bg.png");
+  background-image: url("/public/herooo.png");
   background-size: cover;
   background-position: center;
   /* background-attachment: fixed; */
