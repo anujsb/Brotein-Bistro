@@ -12,30 +12,36 @@ const Footer = () => {
                 The Muscle Friendly Bistro
               </h5>
               <div className="mt-6 flex flex-wrap lg:mb-0 mb-6">
-                <button
+                <a
+                  href="https://www.linkedin.com/company/broteinbistro/"
                   className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
-                  type="button"
+                // type="button"
+
                 >
-                  <i className="fab fa-twitter"></i>
-                </button>
-                <button
-                  className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
-                  type="button"
+                  <img className="w-5" src="/linkedin.svg" />
+                </a>
+                <a
+                  href="https://www.instagram.com/broteinbistro_nashik/"
+                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
+                // type="button"
+
                 >
-                  <i className="fab fa-facebook-square"></i>
-                </button>
-                <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
-                  type="button"
+                  <img className="w-5" src="/insta.svg" />
+                </a>
+                <a
+                  href="https://x.com/21bubblesweb"
+                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
+                // type="button"
+
                 >
-                  <i className="fab fa-dribbble"></i>
-                </button>
-                <button
+                  <img className="w-5" src="/x.svg" />
+                </a>
+                {/* <button
                   className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none mr-2 mb-2"
                   type="button"
                 >
                   <i className="fab fa-github"></i>
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
@@ -127,7 +133,7 @@ const Footer = () => {
               <div className="text-sm text-blueGray-500 font-semibold py-1">
                 Copyright © <span id="get-current-year">2024</span>
                 <a
-                  href="https://www.creative-tim.com/product/notus-js"
+                  href="https://21bubbles.com/"
                   className="text-blueGray-500 hover:text-gray-800"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -136,7 +142,7 @@ const Footer = () => {
                   brotein bistro by{" "}
                 </a>
                 <a
-                  href="https://www.creative-tim.com?ref=njs-profile"
+                  href="https://21bubbles.com/"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
                   21bubbles
